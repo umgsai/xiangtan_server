@@ -25,7 +25,7 @@ public class EncryptUtil {
 
 	static {
 		strKey = "xiangtan_key";
-		Security.addProvider(new com.sun.crypto.provider.SunJCE());
+//		Security.addProvider(new com.sun.crypto.provider.SunJCE());
 		Key key;
 		try {
 			key = getKey(strKey.getBytes());
