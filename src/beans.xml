@@ -12,7 +12,6 @@
     http://www.springframework.org/schema/tx 
     http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
 
-
 	<!-- 一下为bean的配置信息 -->
 	<bean id="areaDao" class="com.xiangtan.dao.impl.AreaDaoImpl"></bean>
 	<bean id="areaService" class="com.xiangtan.service.impl.AreaServiceImpl">
